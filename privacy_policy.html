@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="MINI DOCTOR Terms & Conditions - AI-powered medical information application">
-    <title>MINI DOCTOR – Terms &amp; Conditions</title>
+    <meta name="description" content="MINI DOCTOR Privacy Policy - how we collect, use, and protect your information">
+    <title>MINI DOCTOR – Privacy Policy</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -521,6 +521,52 @@
             background: var(--border);
             border-radius: 3px;
         }
+
+        .doc-switcher {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.5rem 2.5rem;
+            text-align: center;
+        }
+
+        .doc-switcher-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            padding: 0.85rem 1.65rem;
+            border-radius: var(--radius-sm);
+            background: var(--surface);
+            border: 2px solid var(--primary);
+            color: var(--primary-dark);
+            font-weight: 600;
+            text-decoration: none;
+            font-size: 0.95rem;
+            box-shadow: var(--shadow);
+            transition: background 0.18s ease, color 0.18s ease, transform 0.18s ease, box-shadow 0.18s ease;
+        }
+
+        .doc-switcher-btn:hover {
+            background: var(--primary-light);
+            transform: translateY(-1px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .doc-switcher-btn:focus-visible {
+            outline: 2px solid var(--accent);
+            outline-offset: 3px;
+        }
+
+        .subsection h3 {
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--text);
+            margin: 1.25rem 0 0.65rem;
+        }
+
+        .subsection:first-of-type h3 {
+            margin-top: 0.5rem;
+        }
     </style>
 </head>
 <body>
@@ -534,7 +580,7 @@
                 </span>
                 <span class="brand-name">
                     MINI DOCTOR
-                    <small>Terms &amp; Conditions</small>
+                    <small>Privacy Policy</small>
                 </span>
             </a>
             <span class="updated-badge">Last Updated: May 8, 2026</span>
@@ -543,8 +589,8 @@
 
     <section class="hero" id="top">
         <div class="hero-content">
-            <h1>Terms &amp; Conditions</h1>
-            <p>Welcome to MINI DOCTOR. By using this application, you agree to the following Terms &amp; Conditions. Please read them carefully before using the app.</p>
+            <h1>Privacy Policy</h1>
+            <p>MINI DOCTOR respects your privacy and is committed to protecting your personal information. This policy explains what we collect, how we use it, and your choices.</p>
         </div>
     </section>
 
@@ -553,46 +599,79 @@
             <aside class="toc" aria-label="Table of contents">
                 <h2>On this page</h2>
                 <ol>
-                    <li><a href="#purpose">Purpose of the Application</a></li>
-                    <li><a href="#disclaimer">Medical Disclaimer</a></li>
-                    <li><a href="#responsibility">User Responsibility</a></li>
-                    <li><a href="#eligibility">Eligibility</a></li>
-                    <li><a href="#account">Account &amp; Authentication</a></li>
-                    <li><a href="#acceptable-use">Acceptable Use</a></li>
-                    <li><a href="#liability">Limitation of Liability</a></li>
-                    <li><a href="#availability">Service Availability</a></li>
-                    <li><a href="#third-party">Third-Party Services</a></li>
-                    <li><a href="#changes">Changes to Terms</a></li>
-                    <li><a href="#contact">Contact Information</a></li>
+                    <li><a href="#collect">Information We Collect</a></li>
+                    <li><a href="#use">How We Use Your Information</a></li>
+                    <li><a href="#medical-notice">Important Medical Privacy Notice</a></li>
+                    <li><a href="#sharing">Data Sharing</a></li>
+                    <li><a href="#security">Data Security</a></li>
+                    <li><a href="#retention">Data Retention</a></li>
+                    <li><a href="#children">Children&apos;s Privacy</a></li>
+                    <li><a href="#rights">Your Rights</a></li>
+                    <li><a href="#google-play">Google Play Compliance</a></li>
+                    <li><a href="#changes">Changes to This Privacy Policy</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
                 </ol>
             </aside>
 
             <article class="content">
                 <p class="intro">
-                    These Terms &amp; Conditions govern your use of MINI DOCTOR. By accessing or using the application, you acknowledge that you have read, understood, and agreed to be bound by them.
+                    MINI DOCTOR respects your privacy and is committed to protecting your personal information.
                 </p>
 
-                <section class="section" id="purpose">
-                    <h2><span class="section-num">1</span> Purpose of the Application</h2>
-                    <p>MINI DOCTOR is an AI-powered medical information application designed to provide general health-related suggestions based on symptoms entered by users.</p>
-                    <p>The information provided by the application:</p>
+                <section class="section" id="collect">
+                    <h2><span class="section-num">1</span> Information We Collect</h2>
+
+                    <div class="subsection">
+                        <h3>a) Account Information</h3>
+                        <p>When you log in using Google Sign-In through Firebase Authentication, we may collect:</p>
+                        <ul>
+                            <li>Name</li>
+                            <li>Email address</li>
+                            <li>Profile photo (optional)</li>
+                            <li>Firebase user ID</li>
+                        </ul>
+                    </div>
+
+                    <div class="subsection">
+                        <h3>b) Symptom &amp; Health Information</h3>
+                        <p>We may collect:</p>
+                        <ul>
+                            <li>Symptoms entered by users</li>
+                            <li>AI conversation inputs</li>
+                            <li>General health-related questions</li>
+                        </ul>
+                        <p>This information is used only to generate AI-based responses and improve app functionality.</p>
+                    </div>
+
+                    <div class="subsection">
+                        <h3>c) Device &amp; Usage Information</h3>
+                        <p>We may automatically collect:</p>
+                        <ul>
+                            <li>Device type</li>
+                            <li>Android version</li>
+                            <li>App version</li>
+                            <li>Crash logs</li>
+                            <li>Analytics data</li>
+                            <li>IP address (approximate location)</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="section" id="use">
+                    <h2><span class="section-num">2</span> How We Use Your Information</h2>
+                    <p>We use collected information to:</p>
                     <ul>
-                        <li>Is generated using Artificial Intelligence (AI)</li>
-                        <li>Is intended only for informational and educational purposes</li>
-                        <li>Is not a replacement for professional medical advice, diagnosis, or treatment</li>
+                        <li>Provide AI-generated medical suggestions</li>
+                        <li>Improve app performance</li>
+                        <li>Maintain account security</li>
+                        <li>Analyze usage trends</li>
+                        <li>Fix bugs and crashes</li>
+                        <li>Enhance user experience</li>
                     </ul>
                 </section>
 
-                <section class="section" id="disclaimer">
-                    <h2><span class="section-num">2</span> Medical Disclaimer</h2>
-                    <p>MINI DOCTOR does not provide:</p>
-                    <ul>
-                        <li>Medical diagnosis</li>
-                        <li>Emergency medical services</li>
-                        <li>Prescription services</li>
-                        <li>Professional healthcare treatment</li>
-                    </ul>
-
+                <section class="section" id="medical-notice">
+                    <h2><span class="section-num">3</span> Important Medical Privacy Notice</h2>
                     <div class="callout warning">
                         <svg class="callout-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0Z"/>
@@ -600,81 +679,39 @@
                             <line x1="12" y1="17" x2="12.01" y2="17"/>
                         </svg>
                         <div class="callout-content">
-                            <strong>Important Notice</strong>
-                            AI-generated suggestions may be inaccurate, incomplete, or outdated.
+                            <strong>Not a healthcare provider</strong>
+                            MINI DOCTOR is not a certified healthcare provider or hospital system.
                         </div>
                     </div>
-
-                    <p>You must always consult a licensed doctor or healthcare professional for:</p>
+                    <p>Do not submit:</p>
                     <ul>
-                        <li>Serious symptoms</li>
-                        <li>Medical emergencies</li>
-                        <li>Pregnancy-related issues</li>
-                        <li>Chronic diseases</li>
-                        <li>Medication decisions</li>
-                        <li>Treatment plans</li>
-                    </ul>
-
-                    <div class="callout danger">
-                        <svg class="callout-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <circle cx="12" cy="12" r="10"/>
-                            <line x1="12" y1="8" x2="12" y2="12"/>
-                            <line x1="12" y1="16" x2="12.01" y2="16"/>
-                        </svg>
-                        <div class="callout-content">
-                            <strong>Medical Emergency</strong>
-                            If you believe you are experiencing a medical emergency, contact your local emergency services immediately.
-                        </div>
-                    </div>
-                </section>
-
-                <section class="section" id="responsibility">
-                    <h2><span class="section-num">3</span> User Responsibility</h2>
-                    <p>By using MINI DOCTOR, you agree that:</p>
-                    <ul>
-                        <li>You are responsible for your own health decisions</li>
-                        <li>You will not rely solely on AI-generated responses</li>
-                        <li>You understand that AI predictions are not guaranteed to be medically accurate</li>
-                        <li>You will seek professional medical assistance when necessary</li>
+                        <li>Medical records</li>
+                        <li>National ID numbers</li>
+                        <li>Insurance information</li>
+                        <li>Sensitive confidential medical documents</li>
                     </ul>
                 </section>
 
-                <section class="section" id="eligibility">
-                    <h2><span class="section-num">4</span> Eligibility</h2>
-                    <p>You must be at least 13 years old to use this application. If you are under the legal age in your country, parental or guardian permission may be required.</p>
-                </section>
-
-                <section class="section" id="account">
-                    <h2><span class="section-num">5</span> Account &amp; Authentication</h2>
-                    <p>Users may log in using:</p>
+                <section class="section" id="sharing">
+                    <h2><span class="section-num">4</span> Data Sharing</h2>
+                    <p>We do not sell your personal information.</p>
+                    <p>We may share limited information with:</p>
                     <ul>
-                        <li>Google Sign-In</li>
-                        <li>Firebase Authentication services</li>
+                        <li>Firebase services</li>
+                        <li>Google authentication services</li>
+                        <li>Analytics providers</li>
+                        <li>AI infrastructure providers</li>
                     </ul>
-                    <p>You are responsible for maintaining the security of your account credentials.</p>
+                    <p>Only as necessary to operate the application.</p>
                 </section>
 
-                <section class="section" id="acceptable-use">
-                    <h2><span class="section-num">6</span> Acceptable Use</h2>
-                    <p>You agree not to:</p>
+                <section class="section" id="security">
+                    <h2><span class="section-num">5</span> Data Security</h2>
+                    <p>We use reasonable security measures to protect user information, including:</p>
                     <ul>
-                        <li>Misuse the application</li>
-                        <li>Upload harmful or illegal content</li>
-                        <li>Attempt unauthorized access to systems</li>
-                        <li>Use the app for fraudulent or harmful medical activities</li>
-                        <li>Reverse engineer or exploit the platform</li>
-                    </ul>
-                </section>
-
-                <section class="section" id="liability">
-                    <h2><span class="section-num">7</span> Limitation of Liability</h2>
-                    <p>MINI DOCTOR and its developers are not responsible for:</p>
-                    <ul>
-                        <li>Medical complications</li>
-                        <li>Health outcomes</li>
-                        <li>Incorrect AI predictions</li>
-                        <li>User decisions made based on app suggestions</li>
-                        <li>Losses or damages resulting from app usage</li>
+                        <li>Secure Firebase authentication</li>
+                        <li>Encrypted communication (HTTPS)</li>
+                        <li>Restricted access controls</li>
                     </ul>
                     <div class="callout info">
                         <svg class="callout-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -683,36 +720,58 @@
                             <line x1="12" y1="8" x2="12.01" y2="8"/>
                         </svg>
                         <div class="callout-content">
-                            Use the application at your own risk.
+                            However, no online system can guarantee 100% security.
                         </div>
                     </div>
                 </section>
 
-                <section class="section" id="availability">
-                    <h2><span class="section-num">8</span> Service Availability</h2>
-                    <p>We may update, modify, suspend, or discontinue parts of the application at any time without prior notice.</p>
+                <section class="section" id="retention">
+                    <h2><span class="section-num">6</span> Data Retention</h2>
+                    <p>We retain data only as long as necessary to:</p>
+                    <ul>
+                        <li>Provide services</li>
+                        <li>Improve application functionality</li>
+                        <li>Comply with legal obligations</li>
+                    </ul>
+                    <p>Users may request account deletion at any time.</p>
                 </section>
 
-                <section class="section" id="third-party">
-                    <h2><span class="section-num">9</span> Third-Party Services</h2>
-                    <p>The application may use third-party services including:</p>
+                <section class="section" id="children">
+                    <h2><span class="section-num">7</span> Children&apos;s Privacy</h2>
+                    <p>MINI DOCTOR is not intended for children under 13 years old. We do not knowingly collect personal information from children.</p>
+                </section>
+
+                <section class="section" id="rights">
+                    <h2><span class="section-num">8</span> Your Rights</h2>
+                    <p>Depending on your location, you may have the right to:</p>
                     <ul>
-                        <li>Firebase Authentication</li>
-                        <li>Google Login</li>
-                        <li>Analytics services</li>
-                        <li>AI processing services</li>
+                        <li>Access your data</li>
+                        <li>Correct inaccurate data</li>
+                        <li>Delete your account</li>
+                        <li>Request data removal</li>
                     </ul>
-                    <p>These services may have their own terms and privacy policies.</p>
+                </section>
+
+                <section class="section" id="google-play">
+                    <h2><span class="section-num">9</span> Google Play Compliance</h2>
+                    <p>This application follows Google Play policies regarding:</p>
+                    <ul>
+                        <li>User Data</li>
+                        <li>Health-related applications</li>
+                        <li>Account authentication</li>
+                        <li>Privacy transparency</li>
+                        <li>Data safety disclosures</li>
+                    </ul>
                 </section>
 
                 <section class="section" id="changes">
-                    <h2><span class="section-num">10</span> Changes to Terms</h2>
-                    <p>We may update these Terms &amp; Conditions at any time. Continued use of the application after changes means you accept the updated terms.</p>
+                    <h2><span class="section-num">10</span> Changes to This Privacy Policy</h2>
+                    <p>We may update this Privacy Policy periodically. Continued use of the application means acceptance of updated policies.</p>
                 </section>
 
                 <section class="section" id="contact">
-                    <h2><span class="section-num">11</span> Contact Information</h2>
-                    <p>If you have questions about these Terms &amp; Conditions, contact us at:</p>
+                    <h2><span class="section-num">11</span> Contact Us</h2>
+                    <p>For privacy-related questions, contact:</p>
                     <div class="contact-card">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                             <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
@@ -720,13 +779,17 @@
                         </svg>
                         <div>
                             <div style="font-size: 0.8rem; font-weight: 500; opacity: 0.8;">Email</div>
-                            <a href="mailto:support@minidoctor.app">support@minidoctor.app</a>
+                            <a href="mailto:mini.doctor.2026@gmail.com">mini.doctor.2026@gmail.com</a>
                         </div>
                     </div>
                 </section>
             </article>
         </div>
     </main>
+
+    <div class="doc-switcher">
+        <a href="terms_and_service.html" class="doc-switcher-btn">Terms &amp; Service</a>
+    </div>
 
     <footer class="footer">
         <p>&copy; 2026 MINI DOCTOR. All rights reserved.</p>
